@@ -9,6 +9,16 @@
             "projectName": "eventos",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicrokernelKernelApplication<microkernel-kernel>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.univille.microkernel_kernel.MicrokernelKernelApplication",
+            "projectName": "microkernel-kernel",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
